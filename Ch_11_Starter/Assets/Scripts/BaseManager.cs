@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // 1 
-public abstract class BaseManager  
+public abstract class BaseManager: MonoBehaviour  
 { 
     // 2 
     protected string _state = "Manager is not initialized...";

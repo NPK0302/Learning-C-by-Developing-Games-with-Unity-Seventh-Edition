@@ -17,5 +17,9 @@ public class CombatManager: BaseManager
         _state = "Combat Manager initialized..";
         Debug.Log(_state);
     }
+    public void Start() 
+    {
+        Initialize();
+    }
 }
 
