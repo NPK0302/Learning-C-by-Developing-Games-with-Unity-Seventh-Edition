@@ -10,6 +10,7 @@ public static class Utilities
     public static string UpdateDeathCount(ref int countReference)
     {
         countReference += 1;
+        
         return "Next time you'll be at number " + countReference;
     }
 
